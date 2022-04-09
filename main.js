@@ -44,7 +44,8 @@ const addNewNote = (text = "") => {
     note.remove();
     updateLSData();
     
-   let bhh = document.getElementById('h').appendChild(ggg)
+   
+  let bhh = document.getElementById('h').appendChild(ggg)
    setTimeout(function () { 
 
   
@@ -55,7 +56,6 @@ const addNewNote = (text = "") => {
 
         }, 2000); 
   });
-
 
   // toggle using edit button
   textArea.value = text;
