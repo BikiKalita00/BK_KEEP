@@ -44,23 +44,7 @@ const addNewNote = (text = "") => {
     note.remove();
     updateLSData();
     
-   let ggg =  document.createElement('div')
-   ggg.classList.add("alert")
-   ggg.classList.add("alert-success")
-   ggg.innerHTML = 'Success A Delete Note'
-   let con = confirm("You Serious Delete This Note!");
    
-  let bhh = document.getElementById('h').appendChild(ggg)
-   setTimeout(function () { 
-
-  
-
-            // Adding the class dynamically 
-
-            bhh.classList.add('hide'); 
-
-        }, 2000); 
-  });
 
   // toggle using edit button
   textArea.value = text;
